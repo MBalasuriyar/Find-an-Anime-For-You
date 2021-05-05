@@ -14,9 +14,9 @@ function getApi() {
 
     .then(function(data) {
         console.log(data);
-        animeDisplay.textContent = data.anime
-        characterDisplay.textContent = data.character
-        quoteDisplay.textContent = data.quote
+        animeDisplay.textContent = "Anime: " + data.anime;
+        characterDisplay.textContent = "Character: " + data.character;
+        quoteDisplay.textContent = "Quote: " + data.quote;
 
     })
 
