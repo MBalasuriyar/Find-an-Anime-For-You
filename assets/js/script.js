@@ -8,7 +8,6 @@ function getApi() {
     var requestUrl = 'https://animechan.vercel.app/api/random';
 
     fetch(requestUrl)
-        //      .then(response => response.json())
         .then(function(response) {
             return response.json();
         })
@@ -18,8 +17,7 @@ function getApi() {
         animeDisplay.textContent = "Anime: " + data.anime;
         characterDisplay.textContent = "Character: " + data.character;
         quoteDisplay.textContent = "Quote: " + data.quote;
-
-        var gifUrl = 'https://api.giphy.com/v1/gifs/search?api_key=yCzBacG75tZ5SWin4tVnxzMtl3uF3WIe&limit=1&q=' + data.character;
+        var gifUrl = 'https://api.giphy.com/v1/gifs/search?api_key=yCzBacG75tZ5SWin4tVnxzMtl3uF3WIe&limit=1&tag=anime&q=' + data.character + " " + data.anime;
         fetch(gifUrl)
         .then(function(response) {
         return response.json();
@@ -40,17 +38,13 @@ function getApi() {
         fig.appendChild(img);
         fig.appendChild(fc);
         var gifDiv = document.getElementById('gifDiv');
-        // Inserting generated gif at top of container
+        // Setting container to replace previous gif with new one
+        gifDiv.innerHTML = "";
         gifDiv.insertAdjacentElement('afterbegin', fig);
         })
     })
-
+    
 }
-// Gif function 
 
-// function init(){
-
-
-
-// picBtn.addEventListener('click', init);
+// Event listener for click fetch 
 fetchButton.addEventListener('click', getApi);
