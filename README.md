@@ -1,55 +1,60 @@
-# GroupProject: API usuage
+# Anime Finder (group project)
 
-Working as group to create a webpage that makes use of multiple API's.  
-## This Web page's function will theme around anime.
+An interactive webpage that produces a random anime by making use of multiple API's.  
+## https://mbalasuriyar.github.io/Find-an-Anime-For-You/
 
 
 ## User Story
 
 ```
+
 AS A fan of japanese anime
-I WANT to be able to pull random quotes
-FOR my own ammusement
-```
-## Working Criteria
+I WANT to be able to find random shows
+FOR finding new favorites
 
 ```
-GIVEN a dashboard with button inputs
-WHEN you press the button designated for quotes
-THEN you are presented with a quote from a character, the name of the character, and the show of origin.
 
+## Project Completion Criteria:
+1. Producing a randomly pulled anime
+2. Page should show Anime name
+3. Page should name a charater is in the anime and a quote by said character
+4. Page should show an available gif from the anime
+5. Console log should be stored into local storage
+6. Console Log should still be present when page is refreshed
+
+
+![Load up of webpage.](anifind1.png)
+
+
+
+
+
+![Press button for random anime.](anifind2.png)
 ```
-![Place holder for image of functioning.](Placeholder.png)
 ```
 
-WHEN you press the button designated for images
-THEN you are presented with a picture typical of japanese animation.
-<!-- needs tuning -->
-```
-![Place holder for image of functioning.](Placeholder.png)
-```
-```
 
-* Application is deployed at live URL. 
+## Conributers
+[Pratik Patel](https://github.com/PratikPatel-Code/), [Steve Carofano](https://github.com/stevecarofano), 
+[Trey James](https://github.com/tdjames20), [Michael Balasuriyar](https://github.com/MBalasuriyar)
 
-* Application loads with no errors.
 
-* Application GitHub URL submitted.
+#
+## Built With:
+[Visual Studio](https://visualstudio.microsoft.com/)
 
-* GitHub repository that contains application code.
+[CSS (BULMA)](https://bulma.io/)
 
-* Application user experience is intuitive and easy to navigate.
+[JavaScript](https://www.javascript.com/)
 
-* Application user interface style is clean and polished.
+[Animechan API](https://animechan.vercel.app/)
 
-* Application resembles the functionality provided in this README.
+[Giphy API](https://api.giphy.com)
 
-* Repository has a unique name.
 
-* Repository follows best practices for file structure and naming conventions.
+#
+## Links:
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+[Github Repository](https://github.com/MBalasuriyar/Find-an-Anime-For-You)
 
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+[Find an Anime For You](https://mbalasuriyar.github.io/Find-an-Anime-For-You/)
