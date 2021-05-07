@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>If You Like Anime!</title>
+    <!-- Favicon from http://favicon.cc// -->
+    <link href="./assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bulma Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css">
+</head>
+
+<body>
+    <header class="container block">
+        <div class="notification is-danger content has-text-centered">
+            <h1 class="title is-1">
+                Find An Anime For You!!!
+            </h1>
+        </div>
+            
+    </header>
+    <main>
+        <div class="tile is-ancestor block">
+            <div class="tile is-6 notification is-warning content has-text-centered">
+                <h4 class="has-text-black">Click the button bellow to find and anime to watch!</h4>
+            </div>
+        </div>
+        <div class="tile block">
+            <section class="tile is-6 notification is-info block content has-text-centered">
+                <header>
+                    <h3 class="title-3 has-text-white">
+                        <strong>ANIME</strong>
+                    </h3>
+                </header>
+                <div>
+                    <p id="anime">
+                    </p>
+                    <p id="character">
+                    </p>
+                    <p id="quote">
+                    </p>
+
+                    <div>
+                        <button id="fetch-button">
+                            Find Your Anime!
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tile is-6 notification is-success block content has has-text-centered">
+            <section>
+                <header>
+                    <h3 class="title-3 has-text-white">
+                        <strong>ANIME GIF</strong>
+                    </h3>
+                </header>
+            <!-- Added an id to target in js for our content -->
+                <div id="gifDiv">
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Created by Pratik Patel, Steve Carafano, Michael Balas, & Trey James
+      </p>
+    </div>
+  </footer>
+
+</html>
