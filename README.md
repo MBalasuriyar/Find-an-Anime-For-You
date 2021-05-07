@@ -54,7 +54,6 @@ FOR finding new favorites
 
 #
 ## Links:
-[Email](pratikpatel_85@yahoo.com)
 
 [Github Repository](https://github.com/MBalasuriyar/Find-an-Anime-For-You)
 
