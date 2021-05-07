@@ -13,11 +13,20 @@
   background-image: url("../images/anime-header.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  /* From https://stackoverflow.com/questions/35521728/background-size-for-mobile-devices */
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
 }
 
 .title {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+  text-shadow: -1px -1px 1px #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
 }
 
 
